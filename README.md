@@ -1,5 +1,5 @@
 # codewars-challenges
-Find each Codewars kyu in three folders, containing HTML documents that link to the challenges in ascending difficulty.
+Find each Codewars kyu in three folders, containing HTML documents containing links to the challenges in ascending difficulty.
 
 Codewars isn't very good at assigning challenges that are suitable to one's skill levels.
 
