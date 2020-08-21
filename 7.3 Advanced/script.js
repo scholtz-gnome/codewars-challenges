@@ -10,10 +10,6 @@ function wordPattern(word) {
     brandNewArray.push(setToArray.indexOf(letter));
   });
 
-  // for (let i = 0; i < word.length; i++) {
-  //     brandNewArray.push(setToArray.indexOf(toArray[i]));
-  // }
-
   return brandNewArray.join(".");
 }
 
