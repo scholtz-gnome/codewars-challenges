@@ -17,12 +17,23 @@
     li {
       font-size: 27px;
     }
-    li a {
+    .main {
       font-size: 28px;
       text-decoration: none;
       color: rgba(255, 255, 255, 0.9);
       display: block;
-      margin: 5px 5px;
+      margin: 0px;
+      transition: color 150ms;
+    }
+    .main:hover {
+      color: rgba(245, 133, 118, 0.8);
+    }
+    li a {
+      margin: 0px;
+      padding: 0px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
       transition: color 150ms;
     }
     li a:hover {
@@ -35,11 +46,14 @@
   <h1>8 kyu Advanced Challenges</h1>
   <hr>
   <ol>
-    <li><a href="https://www.codewars.com/kata/58f8a3a27a5c28d92e000144" target="_blank">Find the First Non-consecutive Number</a></li>
-    <li><a href="https://www.codewars.com/kata/570a6a46455d08ff8d001002" target="_blank">No Zeros For Heros</a></li>
-    <li><a href="https://www.codewars.com/kata/5168bb5dfe9a00b126000018" target="_blank">Reversed Strings</a></li>
-    <li><a href="https://www.codewars.com/kata/5583090cbe83f4fd8c000051" target="_blank">Convert Number to Reversed Array of Digits</a></li>
-    <li><a href="" target="_blank"></a></li>
+    <li><a href="https://www.codewars.com/kata/58f8a3a27a5c28d92e000144" target="_blank" class="main">Find the First Non-consecutive Number</a></li>
+    <li><a href="https://www.codewars.com/kata/570a6a46455d08ff8d001002" target="_blank" class="main">No Zeros For Heros</a></li>
+    <li><a href="https://www.codewars.com/kata/5168bb5dfe9a00b126000018" target="_blank" class="main">Reversed Strings</a></li>
+    <li><a href="https://www.codewars.com/kata/5583090cbe83f4fd8c000051" target="_blank" class="main">Convert Number to Reversed Array of Digits</a></li>
+    <li>
+      <a href="https://www.codewars.com/kata/56f7f8215d7c12c0e7000b19" target="_blank" class="main">Fun with ES6 Classes #1 - People, People, People</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static" target="_blank">HINT</a>
+    </li>
     <li><a href="" target="_blank"></a></li>
     <li><a href="" target="_blank"></a></li>
     <li><a href="" target="_blank"></a></li>
